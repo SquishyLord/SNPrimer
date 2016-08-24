@@ -1,0 +1,84 @@
+BLASTN 2.2.29+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Aegilops_tauschii.ASM34733v1.dna.toplevel
+           429,892 sequences; 3,313,764,331 total letters
+
+
+
+Query= EMBOSS_001
+
+Length=21
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+lcl|EG:Scaffold231833  dna:supercontig supercontig:ASM34733v1:Sca...  42.1    0.003
+lcl|EG:Scaffold133468  dna:supercontig supercontig:ASM34733v1:Sca...  36.2    0.17 
+lcl|EG:Scaffold32047  dna:supercontig supercontig:ASM34733v1:Scaf...  32.2    2.7  
+
+
+>lcl|EG:Scaffold231833 dna:supercontig supercontig:ASM34733v1:Scaffold231833:1:13160:1 
+REF
+Length=13160
+
+ Score = 42.1 bits (21),  Expect = 0.003
+ Identities = 21/21 (100%), Gaps = 0/21 (0%)
+ Strand=Plus/Plus
+
+Query  1     GCAATACAGCAACACTCGGCA  21
+             |||||||||||||||||||||
+Sbjct  1751  GCAATACAGCAACACTCGGCA  1771
+
+
+>lcl|EG:Scaffold133468 dna:supercontig supercontig:ASM34733v1:Scaffold133468:1:27841:1 
+REF
+Length=27841
+
+ Score = 36.2 bits (18),  Expect = 0.17
+ Identities = 18/18 (100%), Gaps = 0/18 (0%)
+ Strand=Plus/Minus
+
+Query  2     CAATACAGCAACACTCGG  19
+             ||||||||||||||||||
+Sbjct  6858  CAATACAGCAACACTCGG  6841
+
+
+>lcl|EG:Scaffold32047 dna:supercontig supercontig:ASM34733v1:Scaffold32047:1:97854:1 
+REF
+Length=97854
+
+ Score = 32.2 bits (16),  Expect = 2.7
+ Identities = 16/16 (100%), Gaps = 0/16 (0%)
+ Strand=Plus/Minus
+
+Query  4      ATACAGCAACACTCGG  19
+              ||||||||||||||||
+Sbjct  52647  ATACAGCAACACTCGG  52632
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+   -1.00    -1.00    -1.00 
+
+Effective search space used: 13225824668
+
+
+  Database: Aegilops_tauschii.ASM34733v1.dna.toplevel
+    Posted date:  Jul 27, 2016  10:52 AM
+  Number of letters in database: 3,313,764,331
+  Number of sequences in database:  429,892
+
+
+
+Matrix: blastn matrix 1 -3
